@@ -1,0 +1,33 @@
+.btnGroup {
+	margin-left: 10px;
+}
+
+.displayImg {
+	display: block;
+	width: 70%;
+	height: 270px;
+	border: 2px groove black;
+	background-position: center;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+}
+
+.zoom {
+	width: 180px;
+	height: 180px;
+	border: 1px groove black;
+	background-position: center;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+  	transition: transform .3s; /* Animation */
+}
+
+.zoom:hover {
+  	transform: scale(1.4); /* (140% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+#tableSP tbody tr td {
+	vertical-align: middle;
+	text-align: center;
+	font-size: 18px;
+}

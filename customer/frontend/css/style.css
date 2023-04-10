@@ -1,0 +1,267 @@
+*{
+	margin:0;
+	padding:0;}
+body{
+	margin-top:30px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#666;
+	background:url(../images/bg.gif);
+	}
+.container{	
+	padding:0;
+	background:#FFF;
+	}
+.row{
+	margin:0;
+	}	
+#header{
+	width:100%;
+	border-top:3px solid #840000;
+	border-bottom:1px solid #ccc;
+	padding:0;
+	box-sizing:content-box;
+	}
+#search{
+
+	border-right:1px solid #ccc;
+	padding:0;
+	}	
+.icon-search{
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+.shopcart{  
+    width: 40px;
+    height: 40px;
+	transform: translate(0px, 5px);
+}
+#cart-wrapper{
+    width: 1%;
+    display: inline-block;
+    margin-top: -5px;
+}
+#cart-wrapper .cart{
+    color: #000;
+    font-size: 30px;
+    text-decoration: none;
+}
+#cartCount {
+    margin-left: 54px;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    background: burlywood;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    transform: translate(-20px, -40px);
+    font-size: 12px;
+    font-weight: 500px;
+}
+#quickview-cart{
+    width: 280px;
+    position: absolute;
+    text-align: left;
+    top: 80px;
+    right: 360px;
+    padding: 5px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%);
+    background: #fff;
+    display: none;
+}
+h5{
+    width: 100%;
+    padding: 5px;
+    color:black;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+#btnCloseQVCart{
+    display: flex;
+    color: #fff;
+    align-items:center;   
+    cursor: pointer;
+    margin-left: 130px;
+}
+
+#btnCloseQVCart img{
+    width: 20px;
+    height: 20px;
+}
+.no-bullets{
+    list-style: none outside;
+    margin-top: 5px;
+    padding: 5px;
+}
+#menu{
+	padding:0;
+	border:1px solid #ccc;
+	margin-top:15px;
+	}	
+	
+.h2-bar{
+	height:35px;
+	line-height:35px;
+	text-transform:capitalize;
+	font-size:15px;
+	font-weight:bold;
+	color:#FFF;
+	background:#3F3F3F;
+	padding:0 15px;
+	margin:0;
+	}	
+#menu ul{
+	padding: 0 15px;}	
+#menu ul li{
+	list-style:none;
+	height:35px;
+	line-height:35px;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+	}	
+#menu ul li a{
+	color:#000;
+	}
+#menu ul li:hover{
+	cursor:pointer;
+	}	
+#menu ul li:hover a{
+	
+	color:#EE0000;
+	text-decoration:none;
+	}
+#banner-l{
+	margin-top: 15px;
+	border:1px solid #ccc;
+}
+#counter{
+	margin-top: 15px;
+	border:1px solid #ccc;	
+}
+#counter p{
+	padding:15px;
+	}
+#counter p span{
+	font-weight:bold;
+	color:#C40000;
+	}
+#menu-but{
+	float:none;
+	background:#3F3F3F;
+	border-radius:0px;
+	margin:15px 0 0 0;
+	}
+#menu-but span{
+	background:#FFF;}
+		
+#banner-l img{
+	border:none;
+	}
+#slider{
+	margin-top:15px;
+	}
+.products{
+	margin-top:15px;
+	}		
+.product-item{
+	padding: 5px;
+	border:5px solid rgb(219, 184, 184);
+	}
+.product-item img{
+	margin:10px;
+	}
+.product-item h3{
+	margin:10px;
+	font-size:12px;
+	font-weight:bold;
+	}
+.product-item h3 a{
+	color:#000;
+	text-decoration:none;}	
+.product-item p{
+	margin:0;
+	}	
+.price{
+	font-weight:bold;
+	color:#C40000;
+	height:30px;
+	line-height:30px;
+	}
+#brand{
+	margin-top:15px;
+	}
+#brand img{
+	border:none;
+	}	
+#footer{
+	width:100%;
+	height:auto;
+	padding:0;
+	padding-top:8px;
+	background:#2f3131;
+	margin-top:15px;
+	}
+#footer h4 {
+	font-weight:bold;
+	color: #d64e4e;
+		
+}	
+#footer ul li {
+	list-style: none;
+}
+.footer-main {
+	background-color: #4ebdd6;
+	border-top: 20px solid rgb(212, 204, 204);
+	padding: 1px;
+}
+.ft-detail {
+	margin-left: 45px;
+		
+}
+.border-center{
+	padding: 10px;
+	border-top: 1px solid #fff;
+}
+.address-bt p {
+	margin-left: 45px;
+}		
+
+@media (max-width:992px){
+#search{
+	border-bottom:1px solid #ccc;
+	border-right:none;}		
+#slider{
+	display:none;
+	}		
+}
+
+@media (min-width: 768px){
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 28px;
+}
+}
+/*customalert*/
+#customalert {
+    visibility: hidden;
+    min-width: 250px;
+    color: #fff;
+    font-size: 14pt;
+    text-align: center;
+    border-radius: 2px;
+    padding: 20px;
+    position: fixed;
+    z-index: 100;
+    left: 50%;
+    top: 30px;
+    transform: translateX(-50%);
+}
+#customalert.show {
+    visibility: visible;
+ 	animation: fadein 0.5s, fadeout 0.5s 3s;
+}
